@@ -135,7 +135,7 @@ function renderInterview() {
   interviewlist.forEach((job) => {
     const div = document.createElement("div");
     div.className =
-      "flex  justify-between bg-white p-6 rounded-full";
+      "flex  justify-between bg-white p-6 rounded-sm";
 
     div.innerHTML = `
       <div class="space-y-2">
@@ -176,7 +176,7 @@ function renderRejected() {
   rejectedlist.forEach((job) => {
     const div = document.createElement("div");
     div.className =
-      "flex  justify-between bg-white p-6 rounded-full";
+      "flex  justify-between bg-white p-6 rounded-sm";
 
     div.innerHTML = `
       <div class="space-y-2">
